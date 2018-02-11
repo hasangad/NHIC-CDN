@@ -1,0 +1,234 @@
+﻿/* Remving bootstrap rtl is rquired */
+body {
+    direction: ltr;
+    font-family: "Helvetica Neue,Helvetica,Arial,sans-serif", Tahoma;
+}
+
+.login_body {
+    background: url(img/shared/l_dcr-en.jpg) bottom right no-repeat !important;
+}
+
+
+.login_page_right_decor {
+    background: url(img/shared/r_dcr-en.jpg) bottom right no-repeat !important;
+    width: 32%;
+    height: 75%;
+    position: absolute;
+    right: auto;
+    left: 0;
+    bottom: 0;
+    background-size: contain !important;
+}
+
+.close_me {
+    left: auto !important;
+    right: 0px !important;
+    border-bottom-left-radius: 21px !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, h6 {
+    border-right: none !important;
+    border-left: 4px #FC0 solid;
+}
+
+.panel-default > .panel-heading a:after {
+    float: left !important;
+    margin-left: 0;
+    right: 8px;
+}
+
+.label {
+    text-align: left !important;
+}
+
+.register-pass-link {
+    text-align: left !important;
+}
+
+.forgot-pass-link {
+    text-align: right !important;
+}
+
+.log_me_in {
+    float: right !important;
+}
+
+.user_name, .password {
+    background-position: -3px center !important;
+}
+
+.sys_info {
+    left: auto !important;
+    right: 20px;
+}
+
+    .sys_info i, .sys_info b {
+        float: left !important;
+    }
+
+.login_logo {
+    left: 0px;
+    right: auto !important;
+}
+
+.login_form {
+    right: auto !important;
+    left: 35%;
+}
+
+.wizard_area {
+    right: auto !important;
+    left: 32%;
+}
+
+.tab-content {
+    margin-right: auto !important;
+    margin-left: 10%;
+}
+
+.list-inline > li.pull-left {
+    float: right !important;
+}
+
+.list-inline > li.pull-right {
+    float: left !important;
+}
+
+.list-inline > li i.fa-arrow-left:before {
+    content: "\f061" !important;
+}
+
+.hospital-name {
+    bottom: -9px !important;
+    right: auto !important;
+    left: 18% !important;
+    text-align: left !important;
+}
+
+.sys-name-tumor {
+    left: 22% !important;
+    right: auto !important;
+    background: url(img/sys_name_tumor_en.png) center center no-repeat !important;
+}
+
+
+.sys-name-HE {
+    left: 22% !important;
+    right: auto !important;
+    background: url(img/sys_name_HE_en.png) center center no-repeat !important;
+}
+
+td {
+    direction: ltr;
+}
+
+    td input {
+        width: auto;
+    }
+
+.main_content, .welcome, .ntf {
+    float: right !important;
+}
+
+.top_menu {
+    right: 0 !important;
+    left: auto !important;
+}
+
+.dashboard_body {
+    background: url(img/shared/db-bg-en.jpg) top right no-repeat fixed !important;
+}
+
+.dashboard_logo {
+    margin-left: 20px;
+}
+
+.main_menu ul {
+    background: #29999d url(img/shared/i_bg.jpg) top left repeat-y !important;
+    border-top-right-radius: 110px;
+    border-top-left-radius: 0px !important;
+    padding-right: inherit;
+    padding-left: 0 !important;
+}
+
+    .main_menu ul li i {
+        float: left !important;
+    }
+
+    .main_menu ul li:hover a, .main_menu ul li.active a {
+        background: -moz-linear-gradient(left, rgba(41,153,158,0) 100%, rgba(41,153,158,0) 0%, rgba(197,231,233,1) -1%);
+        background: -webkit-linear-gradient(left, rgba(41,153,158,0) 100%, rgba(41,153,158,0) 0%, rgba(197,231,233,1) -1%);
+        background: linear-gradient(to right, rgba(41,153,158,0) 100%, rgba(41,153,158,0) 0%, rgba(197,231,233,1) -1%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5e7e9', endColorstr='#0029999e', GradientType=1 );
+    }
+
+
+.lang-holder {
+    right: auto !important;
+    left: 0 !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 8px;
+}
+
+.lang_login {
+    right: 20px !important;
+    left: auto !important;
+}
+
+.welcome {
+    left:auto !important;
+    right: 4%;
+}
+
+    .welcome .wel_content {
+        float: left !important;
+    }
+
+
+
+.ui-dialog-content ul, .ui-widget-content ul {
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+
+  .pagination li {
+      float: left !important;
+    }
+
+
+@media screen and ( max-width:870px ) {
+
+    .register-pass-link {
+        text-align: right !important;
+    }
+
+
+
+    .main_menu ul li button {
+        margin-left: 30px;
+        text-align: left !important;
+    }
+}
+
+
+
+.filed_holder img {
+    right: auto;
+    left: 14px;
+}
+
+.admin_home  { /*zoom:0.7;*/
+    background: url(img/shared/user-home-bg.jpg) top left no-repeat fixed;
+    background-size: cover;
+}
+
+
+.pagination li:first-child a {
+    border-right-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px !important;
+    -moz-border-radius:  3px 0 0 3px !important;
+    border-radius: 3px 0 0 3px !important;
+}
